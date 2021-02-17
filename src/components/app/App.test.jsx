@@ -11,14 +11,14 @@ describe('App component', () => {
     
     fireEvent.change(current, {
       target: {
-        value: '#FF0000'
+        value: '#00FF00'
       }
     });
 
     const display = await screen.findByTestId('display');
         
     expect(display).toHaveStyle({
-      backgroundColor: '#FF0000',
+      backgroundColor: '#00FF00',
     });
   });
 });
