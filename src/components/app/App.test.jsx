@@ -22,23 +22,3 @@ describe('App component', () => {
     });
   });
 });
-
-
-// const before = screen.getByTestId('before');
-// const after = screen.getByTestId('after');
-
-// fireEvent.change(before, {
-//   target: {
-//     value: '#00FF00'
-//   }
-// });
-
-
-// fireEvent.change(after, {
-//   target: {
-//     value: '#0000FF'
-//   }
-// });
-
-// before: '#00FF00',
-// after: '#FF0000'
